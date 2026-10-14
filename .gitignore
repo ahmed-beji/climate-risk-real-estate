@@ -1,0 +1,17 @@
+# Ignorer tous les dossiers de données
+data/
+
+# Ignorer les fichiers de données courants
+*.csv
+*.tsv
+*.txt
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.h5
+*.zip
+*.tar.gzdata/
+venv/
+*.html
+__pycache__/
