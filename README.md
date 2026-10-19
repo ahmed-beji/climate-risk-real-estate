@@ -35,7 +35,7 @@ Le projet couvre l'intégralité du cycle de vie de la donnée, de l'extraction 
 * `folium`, `branca` (Cartographie interactive, Heatmaps et clusters spatiaux)
 
 ## 📂 Architecture du Dépôt
-'''
+```text
 PROJ_STAT/
 ├── data/
 ├── notebooks/
@@ -49,4 +49,4 @@ PROJ_STAT/
 ├── .gitignore
 ├── Rapport_final.pdf
 └── README.md
-'''
+```
