@@ -35,16 +35,19 @@ Le projet couvre l'intégralité du cycle de vie de la donnée, de l'extraction 
 * `folium`, `branca` (Cartographie interactive, Heatmaps et clusters spatiaux)
 
 ## 📂 Architecture du Dépôt
+
+
 PROJ_STAT/
-├── data/                   # Tes données (DVF, GASPAR...). Doit être dans le .gitignore !
-├── notebooks/              # Uniquement tes fichiers d'exploration et d'analyse
+├── data/                   
+├── notebooks/             
 │   ├── 01_nettoyage_dvf_gaspar.ipynb
 │   ├── 02_modele_hedonique.ipynb
 │   └── 03_creation_carte_interactive.ipynb
-├── output/                 # Tous les fichiers générés par ton code
+├── output/                
 │   └── carte_interactive_finale.html
-├── src/                    # Fichiers .py (fonctions, utilitaires) - vide si tu as tout mis dans les notebooks
-├── venv/                   # Environnement virtuel (Grisé, c'est très bien)
-├── .gitignore              # Assure-toi qu'il contient "venv/" et "data/"
-├── Rapport_final.pdf       # À la racine, bien visible
-└── README.md               # À la racine
+├── src/                    
+├── venv/                 
+├── .gitignore              
+├── Rapport_final.pdf    
+└── README.md             
+
