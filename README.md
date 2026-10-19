@@ -36,18 +36,16 @@ Le projet couvre l'intégralité du cycle de vie de la donnée, de l'extraction 
 
 ## 📂 Architecture du Dépôt
 
-
 PROJ_STAT/
-├── data/                   
-├── notebooks/             
+├── data/
+├── notebooks/
 │   ├── 01_nettoyage_dvf_gaspar.ipynb
 │   ├── 02_modele_hedonique.ipynb
 │   └── 03_creation_carte_interactive.ipynb
-├── output/                
+├── output/
 │   └── carte_interactive_finale.html
-├── src/                    
-├── venv/                 
-├── .gitignore              
-├── Rapport_final.pdf    
-└── README.md             
-
+├── src/
+├── venv/
+├── .gitignore
+├── Rapport_final.pdf
+└── README.md
